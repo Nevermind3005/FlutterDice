@@ -1,3 +1,3 @@
 # DiceRoll
 
-A new Flutter app showing a dice roll.
+A Flutter app showing a dice roll.

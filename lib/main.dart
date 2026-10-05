@@ -20,20 +20,20 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: CupertinoColors.systemBlue,
       ),
-      home: const MyHomePage(title: 'Roll a dice!'),
+      home: const DicePage(title: 'Roll a dice!'),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
+class DicePage extends StatefulWidget {
+  const DicePage({super.key, required this.title});
   final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<DicePage> createState() => _DicePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _DicePageState extends State<DicePage> {
   static const _tick = Duration(milliseconds: 20);
   static const _totalTicks = 25;
 
